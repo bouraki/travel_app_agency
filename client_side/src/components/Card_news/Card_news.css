@@ -1,0 +1,36 @@
+.gray{
+    display: block;
+    margin-bottom: 20px;
+    background-color:rgba(128, 128, 128, 0.486);
+    width: 30%;
+    height: 8px;
+    border-radius: 50px;
+    float: right;
+    margin-top:-15px;
+}
+.gray2{
+    display: block;
+    background-color:rgba(128, 128, 128, 0.144);
+    width: 20%;
+    height: 8px;
+    border-radius: 50px;
+    float: right;
+    clear: both;
+}
+
+
+.colors{
+    margin: 0 -15px;
+    width: 100%;
+}
+
+.app__news-right{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.app__news-right2{
+    position: absolute;
+    right: 0;
+    top: -190px;
+}

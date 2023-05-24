@@ -1,0 +1,21 @@
+.services{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 110px;
+    border-radius: 12px;
+    padding: 15px;
+    -webkit-box-shadow: 5px 5px 23px 10px #BFBFBF; 
+    box-shadow: 5px 5px 9px 2px #BFBFBF;
+    svg{
+        color: var(--primary-color);
+        font-size: 1.3rem;
+        margin-bottom: 7px;
+    }
+    p{
+        font-size: .9rem;
+        text-transform: capitalize;
+    }
+}

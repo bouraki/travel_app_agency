@@ -1,0 +1,22 @@
+.app__gallery{
+    padding: 50px 125px;
+    margin: 150px 0 250px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    place-items: center;
+    gap:25px;
+}
+
+.side2{
+    text-align: center;
+}
+.side2 h1{
+    font-size: 3.5rem;
+    color: white;
+}
+.side2 p{
+    line-height: 1.8rem;
+    max-width: 500px;
+    color: var(--secondary-color);
+}

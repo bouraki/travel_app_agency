@@ -1,0 +1,47 @@
+.app__dashcard{
+    margin: 120px 0;
+    max-width: 300px;
+    height: 150px;
+    border-radius: 15px;
+    background-color: #202940;
+    padding: 10px 12px;
+    .app__row1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+        svg{
+            align-self: flex-start;
+            margin-top: -30px;
+            border-radius: 8px;
+            width: 65px;
+            height: 65px;
+            padding: 18px;
+            color: white;
+        }
+        p{
+            color: #aeb1b9;
+            text-transform: capitalize;
+            letter-spacing:.8px;
+        }
+        h3{
+            float: right;
+            margin-top: -5px;
+            color: white;
+        }
+    }
+    .line{
+        background-color:white;
+        opacity: .1;
+        width: 80%;
+        height: 1px;
+        margin: 0 auto;
+
+    }
+}
+.app__dashall{
+    padding: 0 85px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}

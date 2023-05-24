@@ -1,0 +1,30 @@
+.app__discover{
+    padding: 125px;
+}
+
+.header_dis{
+    color: var(--primary-color);
+    padding-bottom: 15px;
+}
+
+.app__cards{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    place-items: center;
+}
+
+.app_viewall{
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 12px;
+    padding: 5px 18px;
+    margin-top: 35px;
+    letter-spacing: .8px;
+}
+
+.app__cards-a{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}

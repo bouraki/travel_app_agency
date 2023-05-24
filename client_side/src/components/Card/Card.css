@@ -1,0 +1,104 @@
+.card{
+    margin-top:45px;
+    width: 270px;
+    height: auto;
+    padding-bottom: 15px;
+    border: 1px solid rgba(107, 107, 107, 0.11);
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.app_card-desc{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 12px;
+    position: relative;
+}
+.card_hhh{
+    font-size:1.3rem;    
+}
+
+.app_card-info{
+    display: flex;
+    align-items: center;
+    padding: 3px 12px;
+}
+.app_card-info svg{
+    margin-left: auto;
+    font-size: 18px;
+    color: var(--primary-color);
+}
+.app_card-info .card_span{
+    font-size:.8rem;
+    font-weight: bold;
+}
+
+.app_card-line{
+    width: 90%;
+    margin: 15px auto;
+    height:2px;
+    background-color: rgba(107, 107, 107, 0.11);
+}
+
+.app_card-time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app_card-time .card_time{
+    font-size:.8rem;
+}
+
+.app_card-time svg{
+    margin-right:5px;
+    font-size: 17px;;
+    color: var(--primary-color);
+}
+
+.app_card-opt{
+    width: 100%;
+    display: flex;
+    gap: 8px;
+    position: absolute;
+    top: 1rem;
+    left: .7rem;
+}
+
+
+
+.opt{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.opt svg{
+    cursor: pointer;
+    transform: translate(30%,30%);
+    vertical-align: middle;
+}
+
+.opt-fly{
+    background-color: orange;
+}
+.opt-fly svg{
+    color: white;
+}
+.opt-car svg{
+    color: white;
+}
+
+.opt-car{
+    background-color: var(--primary-color);
+}
+.opt-heart{
+    margin-right: 25px;
+    margin-left:auto ;
+    background-color: white;
+}
+
+

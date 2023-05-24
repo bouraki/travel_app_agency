@@ -1,0 +1,101 @@
+svg{
+    vertical-align: middle;
+}
+.app__details{
+    margin: 35px 185px;
+    h1{
+        margin: 15px 0 8px;
+        color: var(--primary-color);
+    }
+    p{
+        font-size: .9rem;
+    }
+    &-images{
+        display: grid;
+        grid-template-columns: 60% 35% ;
+    }
+    &-info{
+        margin-top: 35px;
+        display: grid;
+        grid-template-columns: 55% 35%;
+        gap: 5%;
+        &-left{
+            p{
+                line-height: 1.7rem;
+            }
+        }
+        &-right{
+            // border: 1px solid red;
+            -webkit-box-shadow: 5px 5px 28px -5px #000000; 
+            box-shadow: 5px 5px 24px -5px #000000;
+            border-radius: 15px;
+            padding: 25px 30px;
+            &-col1{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                h3{
+                    span{
+                        font-size: 1rem;
+                        color: var(--primary-color);
+                    }
+                }
+                .icons{
+                    svg{
+                        cursor: pointer;
+                        margin: 0 8px;
+                        font-size:1.6rem;
+                        color: var(--primary-color);
+
+                    }
+                }
+            }
+            &-col2{
+                line-height: 1.5rem;
+                margin: 25px 0;
+                h4{
+                    color: var(--primary-color);
+                }
+            }
+            &-col3{
+                margin: 15px 0 25px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                span{
+                    font-size:.9rem;
+                    svg{
+                        font-size: 1rem;
+                        margin-right:8px;
+                        color: var(--primary-color);
+                    }
+                }
+            }
+            &-col4{
+                .details_btn{
+                    padding: 8px 25px;
+                    width: 100%;
+                    border-radius: 12px;
+                    color: white;
+                    cursor: pointer;
+                    background-color: var(--primary-color);
+                }
+            }
+        }
+    }
+    &-services{
+        margin: 35px 0;
+        width: 55%;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 25px;
+
+    }
+    &-hotels{
+        width: 55%;
+        margin: 35px 0;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 25px;
+    }
+}

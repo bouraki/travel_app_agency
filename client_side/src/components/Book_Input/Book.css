@@ -1,0 +1,87 @@
+.app__input{
+    position: absolute;
+    z-index: 50;
+    margin-top: 35px;
+    min-width: 850px;
+    background-color: white;
+    padding: 15px 0 15px 35px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+.app__input1{
+    width:30%;
+}
+
+.app__input1 svg{
+    color: var(--primary-color);
+    margin:0  6px 0 0;
+    font-size: 1.1rem;
+}
+
+
+.app__input1 label{
+    font-size: .8rem;
+    color: var(--secondary-color);
+    text-transform: capitalize;
+}
+
+.app__input1 input{
+    width: 70%;
+    height: 40px;
+    margin-top:8px;
+    border-radius: 8px;
+    padding: 8px 10px;
+    border: 1px solid var(--primary-color);
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+
+.app__input1-price{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.app__input1-price span{
+    margin-left:auto;
+    color: var(--primary-color);
+}
+
+.app__input1-range{
+    width: 70%;
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    padding: 7px 10px;
+    position: relative;
+    height: 40px;
+}
+
+
+
+
+input[type="range"]{
+    -webkit-appearance: none;
+    height: 5px;
+    width: 100%;
+    padding:0;
+}
+
+.app__input > svg{
+    cursor: pointer;
+    margin-left: 3px;
+    height: 60px;
+    width: 60px;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    font-size:4rem;
+    background-color: var(--primary-color);
+}
+input[type="range"]::-moz-range-progress {
+    background-color:var(--primary-color); 
+  }

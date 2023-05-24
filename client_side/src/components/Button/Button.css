@@ -1,0 +1,12 @@
+.button_button{
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    color: white;
+    background-color:var(--primary-color);
+    padding: 8px 25px;
+    border-radius: 12px;
+}
+
+svg{
+    margin-left: 5px;
+}

@@ -1,0 +1,43 @@
+.app__navbar{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px 125px;
+    background-color: rgba(228, 228, 228, 0.185);
+    z-index: 10;
+
+}
+
+.app__navbar-logo{
+    font-size: 1.5rem;
+    font-weight:600;
+    color: rgb(76, 220, 179);
+}
+
+.app__navbar-links{
+    display: flex;
+    gap: 20px;
+}
+.app__navbar-links .navbar-a{
+    color: black;
+    text-transform: capitalize;
+    transition:.5s; 
+    margin-bottom: 0;
+}
+.navbar_li{
+    margin-bottom: 0
+}
+
+.app__navbar-button a{
+    padding: 10px 20px;
+    border-radius: 12px;
+    background-color: rgb(76, 220, 179);
+    color: white;
+    font-size: .9rem;
+    letter-spacing: .8px;
+}
+
+.app__navbar-links li a:hover{
+    color: var(--primary-color);
+}
